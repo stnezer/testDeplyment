@@ -89,7 +89,7 @@
   --tp-text-13: #868D94;
   --tp-text-14: #56595C;
   --tp-text-15: #a1a2ab;
-  --tp-theme-1: #e72c0f;
+  --tp-theme-1: #ff3801;
   --tp-theme-2: #258E46;
   --tp-theme-3: #007A70;
   --tp-border-1: #dedede;
@@ -4097,6 +4097,15 @@ input[type=color] {
   color: var(--tp-common-white);
   background: #285da1;
 }
+
+/* .course__share ul li a.tk {
+  color:white;
+  background:black;
+}
+.course__share ul li a.tk:hover {
+  color: black;
+  background: black;
+} */
 .course__share ul li a.tw {
   color: #03a9f4;
   background: rgba(3, 169, 244, 0.1);
@@ -8102,6 +8111,16 @@ input[type=color] {
   color: var(--tp-common-white);
   background: #285da1;
 }
+
+.contact__social ul li a.tk {
+  color:black;
+  background: rgba(40, 93, 161, 0.1);
+}
+.contact__social ul li a.tk:hover {
+  color: var(--tp-common-white);
+  background: black;
+}
+
 .contact__social ul li a.tw {
   color: #03a9f4;
   background: rgba(3, 169, 244, 0.1);
