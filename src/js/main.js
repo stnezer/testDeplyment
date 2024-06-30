@@ -412,6 +412,20 @@
   }
 
   ////////////////////////////////////////////////////
+  // email prtectin remove
+  
+  $(document).ready(function() {
+    // Obfuscated email parts
+    var user = 'grit.techconcept';
+    var domain = 'gmail.com';
+    
+    // Construct the email address
+    var email = user + '@' + domain;
+    
+    // Set the href attribute and the text of the anchor tag
+    $('#email-link').attr('href', 'mailto:' + email).text(email);
+});
+
   // 23. InHover Active Js
   $(".hover__active").on("mouseenter", function () {
     $(this)
